@@ -1,34 +1,67 @@
-### Brújula para Android
+# Aplicaciones Android: AppSensorMagnetico y AppSensorProximidad
 
-Esta es una aplicación sencilla de brújula diseñada para dispositivos Android, que utiliza los sensores del teléfono para mostrar la orientación en tiempo real.
+Este repositorio contiene dos aplicaciones independientes que utilizan los sensores del dispositivo Android para funcionalidades específicas.
+
+# 1. AppSensorMagnetico
+
+## Descripción
+
+Una aplicación sencilla que muestra la orientación en tiempo real utilizando los sensores del dispositivo para apuntar hacia el norte magnético.
 
 ## Características
 
 - Muestra la dirección hacia el norte magnético.
-- Actualización en tiempo real de la orientación.
-- Animaciones suaves para la rotación de la brújula.
+- Animaciones suaves que reflejan los cambios de orientación.
+- Utiliza el acelerómetro y el magnetómetro del dispositivo.
 
 ## Requisitos
 
-- Sistema operativo Android 5.0 (Lollipop) o superior.
-- Sensores necesarios:
-- Acelerómetro.
-- Magnetómetro (sensor de campo magnético).
+- Android 5.0 o superior.
+- Sensores: Acelerómetro y Magnetómetro.
 - Descarga e instalación
+- Permitir instalaciones desde fuentes desconocidas:
+- Ve a Ajustes > Seguridad > Orígenes desconocidos y actívalo.
 
+## Instalar la aplicación:
+- Abre el archivo APK descargado y sigue las instrucciones.
 
-## Abrir la aplicación:
-- Toca el ícono de la brújula para abrirla.
-- Sujeta el dispositivo horizontalmente:
-- Asegúrate de mantener el teléfono nivelado para obtener una lectura precisa.
-- Sigue la animación:
-- La aguja de la brújula apunta hacia el norte magnético en tiempo real.
+## Uso
+- Abre la aplicación.
+- Mantén el dispositivo en posición horizontal y observa cómo la brújula apunta al norte magnético.
+- Si la brújula no es precisa, calibra el sensor moviendo el dispositivo en forma de "8".
+
+# 2. AppSensorProximidad
+
+## Descripción
+Una aplicación que utiliza el sensor de proximidad del dispositivo para detectar si el sensor está cubierto o descubierto. Si se cubre el sensor durante una llamada, la aplicación intenta colgar automáticamente.
+
+## Características
+- Detecta si el sensor de proximidad está cubierto.
+- Muestra mensajes en tiempo real sobre el estado del sensor.
+- Finaliza llamadas automáticamente al cubrir el sensor (requiere permisos).
+
+## Requisitos
+- Android 6.0 o superior.
+- Sensor de proximidad.
+
+## Permisos:
+- Responder y finalizar llamadas.
+- Descarga e instalación
+- Permitir instalaciones desde fuentes desconocidas:
+- Ve a Ajustes > Seguridad > Orígenes desconocidos y actívalo.
+- Instalar la aplicación:
+
+## Uso
+- Abre la aplicación.
+- Durante una llamada telefónica:
+- Si cubres el sensor de proximidad, la aplicación intentará colgar automáticamente.
+- Si no estás en una llamada, simplemente muestra el estado del sensor.
 
 ## Notas importantes
 
-- **Precisión:** La precisión depende de la calibración de los sensores. Si notas inconsistencias, realiza movimientos en forma de "8" con el teléfono para recalibrar.
-- **Interferencias:** Mantén el dispositivo alejado de imanes o dispositivos electrónicos que puedan afectar el campo magnético.
+- **Permisos:** Es necesario conceder el permiso de finalizar llamadas para que la funcionalidad de colgar llamadas funcione correctamente.
+Compatibilidad: La función de colgar llamadas está soportada solo en Android 9 (Pie) o superior.
 Contribuciones
 
-Si deseas colaborar o tienes sugerencias, ¡no dudes en contactarnos!
-¡Gracias por usar nuestra aplicación! 🌍
+Si deseas colaborar con mejoras o tienes ideas para nuevas funcionalidades, ¡no dudes en enviar tus sugerencias o abrir un pull request!
+¡Gracias por usar nuestras aplicaciones! ♥️
