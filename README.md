@@ -22,9 +22,6 @@ Una aplicación sencilla que muestra la orientación en tiempo real utilizando l
 - Permitir instalaciones desde fuentes desconocidas:
 - Ve a Ajustes > Seguridad > Orígenes desconocidos y actívalo.
 
-## Instalar la aplicación:
-- Abre el archivo APK descargado y sigue las instrucciones.
-
 ## Uso
 - Abre la aplicación.
 - Mantén el dispositivo en posición horizontal y observa cómo la brújula apunta al norte magnético.
